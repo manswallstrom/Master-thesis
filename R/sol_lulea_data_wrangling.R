@@ -216,8 +216,3 @@ rownames(lulea_test) = 1:nrow(lulea_test)
 
 df_2021 = lulea_train_recent[which(lulea_train_recent$Datum >= "2020-10-01"), ]
 
-
-write.csv(lulea_train_recent, "C:/Users/mansw/Documents/Masteruppsats/SMHI/lulea_train_recent.csv", row.names=FALSE)
-write.csv(lulea_test, "C:/Users/mansw/Documents/Masteruppsats/SMHI/lulea_test.csv", row.names=FALSE)
-write.csv(df_2021, "C:/Users/mansw/Documents/Masteruppsats/SMHI/df_2021.csv", row.names=FALSE)
-
